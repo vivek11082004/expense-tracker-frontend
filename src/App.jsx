@@ -10,7 +10,7 @@ import Profile from './pages/Profile.jsx';
 import ContactUs from './components/ContactUs.jsx';
 import axios from 'axios';
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://expense-tracker-backend-m0xl.onrender.com";
 
 // To get trnsaction from localStorage
 const getTransactionsFromStorage = () => {
