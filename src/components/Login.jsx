@@ -6,7 +6,7 @@ import axios from 'axios'
 
 
 
-const Login = ({ onLogin, API_URL = "http://localhost:5000"}) => {
+const Login = ({ onLogin, API_URL = "https://expense-tracker-backend-m0xl.onrender.com"}) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);

@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://expense-tracker-backend-m0xl.onrender.com/api";
 
 Modal.setAppElement('#root');
 

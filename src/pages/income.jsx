@@ -31,7 +31,7 @@ import { getTimeFrameRange, generateChartPoints } from "../components/Helper.jsx
 import { INCOME_COLORS, CATEGORY_ICONS_Inc } from "../assets/color";
 import { incomeStyles as styles } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:4000/api";
+const BASE_URL = "https://expense-tracker-backend-m0xl.onrender.com/api";
 
 // Helps in coverting date to ISO format with client time. This is useful when the user selects a date without time and we want to set the time to the current time of the client.
 function toIsoWithClientTime(dateValue) {
