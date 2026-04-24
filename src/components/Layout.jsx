@@ -16,7 +16,7 @@ import axios from 'axios';
 import { Outlet } from 'react-router-dom';
 import { styleEffect } from 'framer-motion';
 
-const API_BASE = 'http://https://expense-tracker-backend-m0xl.onrender.com/api';
+const API_BASE = 'https://expense-tracker-backend-m0xl.onrender.com/api';
 const CATEGORY_ICONS = {
   Food: <Utensils className="w-4 h-4" />,
   Housing: <Home className="w-4 h-4" />,
